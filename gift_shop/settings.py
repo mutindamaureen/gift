@@ -48,11 +48,13 @@ REST_FRAMEWORK = {
 
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:8080',
+    'https://main.d3i7doakv2kd1d.amplifyapp.com',
 ]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
     "http://127.0.0.1:8000",
+    "https://main.d3i7doakv2kd1d.amplifyapp.com",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
