@@ -71,7 +71,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'gift_shop.urls'
-
+SECURE_SSL_REDIRECT = True
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
