@@ -1,6 +1,4 @@
 
-import os
-
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -16,7 +14,7 @@ SECRET_KEY = 'django-insecure-yvfc7w#hgol#u$7biqh%cgx4s1=57^u*lt_jv04j#xd)&&)v4p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['34.227.108.79', '*']
 
 STRIPE_SECRET_KEY = 'sk_test_51Qov3RKVohXcPECSbsokAMQUFaZ0B2VyGLMzNuUzYcMOL5KFd5bDp1zpaNxLj0TDZBIYx8nvWNN3UwlQY8ujxOmn00g82PH81Q'
 # Application definition
